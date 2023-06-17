@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>To List App</h1>
+    <div class="todo-container">
+        <input type="text" placeholder="Add a task" class="add-task" id="add" />
+        <span id="total-tasks">Total tasks:
+            <span id="tasks-counter">0</span>
+        </span>
+        <ul id="list">
+            <li>
+                <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+                <label for="task1">Buy groceries</label>
+                <img src="binImg.png" alt="---" class="delete" data-id="12" /> 
+            </li>
+        </ul>
+    </div>
     
     <script src="script.js"></script>
 </body>
